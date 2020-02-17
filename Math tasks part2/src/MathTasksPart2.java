@@ -99,9 +99,12 @@ public class MathTasksPart2 {
         solverObj.setX(new int[]{1, 2, 0, 5, 0, -4, 8});
         solverObj.setY(new int[solverObj.getN()]);
 
+	System.out.println();
+
         solverObj.ex281();
         solverObj.ex282();
         solverObj.ex284();
         solverObj.ex287();
     }
+
 }
